@@ -1,0 +1,118 @@
+
+    @import "https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap";
+
+    
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    body {
+        background-color: #88AE93;
+        font-family: 'Lexend Mega', sans-serif;
+        color: black;
+        text-align: center;
+    }
+
+    header {
+        padding: 32px;
+        border-bottom: 1px solid #264221;
+        background: rgba (0, 0, 0, 0.1)
+      
+    }
+
+    #titulo img{
+        max-width: 40%;
+    }
+
+    #wrapper {
+        text-align: center;
+        padding: 20px;
+        
+    }
+
+    #wrapper img {
+        margin-bottom: 32px;
+        max-width: 50%;
+    }
+
+    #wrapper p {
+        max-width: 1000px;
+        margin: 5px auto;
+        font-size: 15px;
+        line-height: 15px;
+        text-align: justify;
+    
+    }
+
+    div.quadrado {
+        width:300px;
+        height:300px;
+        color: AEFFA0;
+        }
+
+
+    form,input,select,textarea{margin:0; padding:0; color:#ffffff;}
+
+    div.box {
+            margin: 0 auto;
+            width:500px;
+            background:#264221;
+            position: relative;
+            top:50px;
+            margin-bottom: 100px;
+           
+        }
+        
+    div.box h1 {
+            color:white;
+            font-size:18px;
+            text-transform:uppercase;
+            padding:5px 0 5px 5px;
+        }
+        
+    div.box label {
+            width:100%;
+            display: block;
+            background:#264221;
+            padding:10px 0 10px 0;
+        }
+        
+    div.box label span {
+            display: block;
+            color:white;
+            font-size:12px;
+            float:left;
+            width:100px;
+            text-align:right;
+            padding:0 20px 0 0;
+
+        }
+        
+    div.box .input_text {
+            padding:10px 20px;
+            width:200px;
+            background:white;
+            color: black;
+        }
+
+    div.box .output_text {
+            padding:10px 20px;
+            width:200px;
+            background:white;
+            color: black;
+        }
+      
+    div.box .button{
+            margin:0 10px 10px 0;
+            padding:4px 7px;
+            background:black;
+            border:0px;
+            position: left;
+            top:10px;
+            left:382px;
+            width:100px;
+        }
+   
+       

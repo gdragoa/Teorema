@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Teorema de Pitágoras</title>
+        
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+ 
+
+    <header>
+        
+   <div id="titulo">
+    <img src="/titulo.png" alt="Titulo">
+   </div>
+</header>
+
+<table>
+    <tr>
+        <td>  <div id="wrapper">
+        
+            <img src="/pitagoras.png" alt="Pitagoras" >
+            <p>O teorema de Pitágoras é uma relação matemática entre os comprimentos dos 
+                lados de qualquer triângulo retângulo. 
+            </p>
+               
+        </td> 
+
+        <td> 
+            <div id="wrapper">
+             <img src="/seta1.png" alt="seta 1" width="30%">  
+        </td> 
+
+        <td> 
+            <div id="wrapper">
+                <p>
+ 
+                    Segundo o enunciado do Teorema de Pitágoras, 
+            
+                    a fórmula é representada da seguinte maneira:
+                    <br><br>
+                     a² = b² + c²
+                    <br><br>
+                    Sendo,
+                    <br><br>
+                    a: hipotenusa
+                    <br>    
+                    b: cateto oposto a hipotenusa
+                   <br>
+                    c: cateto adjacente a hipotenusa
+
+                </p>    
+        </td> 
+    
+    </tr>
+
+    <tr>
+        <td>  <div id="wrapper">
+            <img src="/seta3.png" alt="seta 1" width="15%">  
+            
+               
+        </td> 
+        <td> 
+            <div id="wrapper">
+                <p>
+                <br> <br> <br> <br> <br>
+                Exemplo: Se um triângulo retângulo apresenta 3 cm e 4 cm como medidas dos catetos, 
+                qual a hipotenusa desse triângulo?
+                </p>
+                <br>
+                <img src="/exemplo.png" alt="exemplo">
+                
+            </div>
+        </td> 
+
+        <td> 
+            <div id="wrapper">
+                <img src="/seta2.png" alt="seta 1" width="40%">  
+        </td> 
+    
+    </tr>
+
+</table>
+<div id="wrapper"> E para te ajudar a calcular o Teorema de Pitágoras, temos logo abaixo uma calculadora. 
+    Onde basta que você insira os valores já aprendidos nos passos anteriores em seu espaço correspondente:
+
+</div>
+
+<form name="meuForm" method="post" id="formulario">
+	<div class="box">
+		<h1>Calcular o Teorema de Pitágoras:</h1>
+
+		<label>
+			<span> Valor da Hipotenusa </span>
+ 			<input type="text" class="input_text" name="hipotenusa" id="hipotenusa">
+
+		</label>
+        <br><br>
+		<label>
+ 			<span>Valor do Cateto Oposto</span>
+			<input type="text" class="input_text" name="cateto oposto" id="cateto_oposto">
+		 </label>
+         <br><br>
+		<label>
+ 			<span>Valor do Cateto Adjacente</span>
+			<input type="text" class="input_text" name="cateto adjacente" id="cateto_adjacente">
+		</label>
+        <br><br>
+		<label>
+			 
+            <input type="button" class="button" value="Calcular" />
+            <input type="text" class="output_text" name="resultado" id="resultado">
+        </label>
+        
+	</div>
+</form>
+
+
+</body>
+<script src="teorema.js"></script>
+</html>
